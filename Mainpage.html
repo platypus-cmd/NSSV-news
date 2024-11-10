@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NSSV News Website</title>
+</head>
+<link rel="stylesheet" href="sheet.css">
+<body style="background-color: #FFFAF0; font-family: Arial, sans-serif; text-align: center; margin: 0; padding: 0;">
+
+    <header style="background-color: #FF5841; padding: 20px;">
+        <h1 style="color: white; margin: 0;">
+            <img src="NSSV.png" alt="Logo" width="150px" style="vertical-align: middle;"> 
+            NSSV News
+        </h1>
+    </header>
+
+    <div style="background-color: #FFD700; padding: 10px;">
+        <h2 style="margin: 0;">
+            <marquee behavior="scroll" direction="left" scrollamount="10" loop="infinite" style="color: #000080; font-weight: bold;">
+                NSSV News Website - Stay Updated with the Latest News!
+            </marquee>
+        </h2>
+    </div>
+
+    <section style="padding: 20px;">
+        <article style="background-color: #fff; border: 2px solid #FF5841; border-radius: 10px; padding: 15px; margin-bottom: 20px;">
+            
+                <a href="second.html" class="link" style="text-decoration: none; font-size: 18px; font-weight: bold;">
+                Sports news: Vinesh Phogat Disqualified from Olympics
+                </a>
+
+            
+            <br>
+            <img src="vinesh-phogat-9 (1).jpg" alt="Vinesh Phogat" width="100px" style="border-radius: 5px; margin-top: 10px;">
+            <p style="color: #333333; font-size: 16px; margin-top: 10px;">
+                Vinesh Phogat, who defeated a Japanese player, was disqualified because she was 100 grams over the weight limit.
+            </p>
+        </article>
+
+        <article style="background-color: #fff; border: 2px solid #FF5841; border-radius: 10px; padding: 15px; margin-bottom: 20px;">
+            <a href="third.html" class= "link" style=" font-size: 18px; font-weight: bold;">
+                International News: Muhammad Yunus Forms Interim Government in Bangladesh
+            </a>
+            <br>
+            <img src="images.jpeg" alt="Muhammad Yunus" width="100px" style="border-radius: 5px; margin-top: 10px;">
+            <p style="color: #333333; font-size: 16px; margin-top: 10px;">
+                After the exit of former PM Sheikh Hasina, Muhammad Yunus forms an interim government until new elections are held.
+            </p>
+        </article>
+
+        <article style="background-color: #fff; border: 2px solid #FF5841; border-radius: 10px; padding: 15px;">
+            <a href="fourth.html" class="link" style="text-decoration: none; font-size: 18px; font-weight: bold;">
+                National News: Nationwide Protest of Doctors for Justice
+            </a>
+            <br>
+            <img src="Mumbai--India---Aug--16--2024--Resident-doctors-an_1723856578405_1723856609311.avif" alt="Protest" width="100px" style="border-radius: 5px; margin-top: 10px;">
+            <p style="color: #333333; font-size: 16px; margin-top: 10px;">
+                Resident doctors and medical students across the city’s government hospitals staged a protest against the alleged rape and murder of a woman doctor at Kolkata’s RG Kar Medical College and Hospital.
+            </p>
+        </article>
+    </section>
+    <div class="popup" id="newsletterPopup" style="padding: 80px;">
+        <div class="popup-content">
+          <div class="material">
+                <span class="close-btn" onclick="closePopup()">×</span>
+                <h2>Subscribe to our Newsletter</h2>
+                <p>Get the latest updates and offers right in your inbox!</p>
+                <form action="#" method="post">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            
+        </div>
+      </div>
+    
+</body>
+<script>
+    function closePopup() {
+      document.getElementById("newsletterPopup").style.display = "none";
+    }
+  </script>
+
+</html>
