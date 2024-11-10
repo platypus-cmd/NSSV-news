@@ -28,7 +28,11 @@ marquee {
     color: orangered;
 }
 img {
-    vertical-align: middle;
+    display: block;
+    margin: auto auto;
+    width: 200px;
+    height: 100px;
+
 
 }
 .link:hover{
@@ -79,6 +83,7 @@ header img {
     display: inline-block;
     width: 80%;
     max-width: 800px;
+    
 }
 .article a {
     text-decoration: none;
@@ -113,6 +118,10 @@ section{
 }
 .vinesh{
     margin-left: 30px;
+}
+.marquee{
+    background-color: #FFD700;
+    padding: 10px;
 }
 
 /* popup */
@@ -178,4 +187,7 @@ section{
     background-color: #45a049;
   }
   
-  
+.logo{
+    width: 150px;
+    height: 150px;
+}
